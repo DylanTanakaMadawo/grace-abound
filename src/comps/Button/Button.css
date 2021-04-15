@@ -1,0 +1,20 @@
+.btn {
+    padding: 10px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+}
+.btn:hover {
+    transform: scale(0.94);
+    color: rgb(209, 204, 204);
+}
+
+@media screen and (max-width: 768px) {
+    .btn:hover {
+        display: none;
+        transition: all 0.01s ease;
+    }
+}

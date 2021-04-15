@@ -1,0 +1,17 @@
+.contact-us-section {
+    height: 88vh;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us-section {
+        height: 180vh;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}

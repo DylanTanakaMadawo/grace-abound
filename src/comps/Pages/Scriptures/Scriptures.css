@@ -1,0 +1,160 @@
+
+.scriptures-section {
+    height: 100vh;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.daily-scripture {
+    /* background-color: rgb(44, 23, 23); */
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+.scripture {
+    /* color: rgb(9, 60, 230); */
+    text-align: center;
+    line-height: 40px;
+}
+
+blockquote {
+    /* color: rgb(187, 13, 13); */
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: 5rem auto;
+    padding: .5rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: 'Times', serif;
+}
+
+blockquote::before {
+    content: '\201c';
+    top: 10px;
+    left: -40px;
+}
+blockquote::after {
+    content: '\201d';
+    bottom: -80px;
+    right: -600px;
+}
+
+blockquote::before,
+blockquote::after {
+    font-size: 10rem;
+    position: relative;
+}
+
+.verse {
+    /* color: rgb(24, 143, 0); */
+    position: absolute;
+    right: 350px;
+    bottom: 200px;
+    font-style: italic;
+    font-size: 20px;
+}
+@media screen and (max-width: 1500px) {
+    .scriptures-section {
+        margin-bottom: 200px;
+    }
+    .daily-scripture {
+        /* color: powderblue; */
+        width: 90%;
+        height: 90%;
+    }
+    .scripture {
+        /* color: rgb(19, 140, 43); */
+        text-align: center;
+        line-height: 35px;
+    }
+    blockquote::before {
+        top: -50px;
+        left: -75px;
+    }
+    blockquote::after {
+        bottom: -150px;
+        right: -700px;
+    }
+    
+    blockquote::before,
+    blockquote::after {
+        font-size: 8rem;
+    }
+    .verse {
+        right: 50px;
+        bottom: 10px;
+        /* color: yellow; */
+
+    }
+}
+@media screen and (max-width: 1200px) {
+    .scriptures-section {
+        margin-bottom: 200px;
+    }
+    .daily-scripture {
+        /* color: powderblue; */
+        width: 90%;
+        height: 90%;
+    }
+    .scripture {
+        /* color: rgb(19, 140, 43); */
+        text-align: center;
+        line-height: 35px;
+    }
+    blockquote::before {
+        top: -50px;
+        left: -75px;
+    }
+    blockquote::after {
+        bottom: -150px;
+        right: -555px;
+    }
+    
+    blockquote::before,
+    blockquote::after {
+        font-size: 5rem;
+    }
+    .verse {
+        right: 50px;
+        bottom: 10px;
+        /* color: yellow; */
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .scriptures-section {
+        margin-bottom: 200px;
+    }
+    .daily-scripture {
+        /* color: powderblue; */
+        width: 90%;
+        height: 90%;
+    }
+    .scripture {
+        /* color: rgb(19, 140, 43); */
+        text-align: center;
+        line-height: 35px;
+    }
+    blockquote::before {
+        top: -50px;
+        left: -75px;
+    }
+    blockquote::after {
+        bottom: -50px;
+        right: -185px;
+    }
+    
+    blockquote::before,
+    blockquote::after {
+        font-size: 5rem;
+    }
+    .verse {
+        right: 50px;
+        bottom: 10px;
+        /* color: yellow; */
+
+    }
+}

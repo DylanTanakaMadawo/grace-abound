@@ -1,9 +1,15 @@
 import './App.css';
+import Home from './comps/Home/Home';
+import Navbar from './comps/Navbar/Navbar';
+import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <h1>Grace Abound Ministries</h1>
+      <Router>
+        <Navbar />
+        <Home />
+      </Router>
     </div>
   );
 }

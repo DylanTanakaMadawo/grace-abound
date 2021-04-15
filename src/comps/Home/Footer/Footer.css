@@ -1,0 +1,118 @@
+.footer-container {
+    height: 88vh;
+    background-color: rgb(255, 253, 253);
+    padding: 100px 60px;
+}
+.footer-inside-box {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    /* background-color: rgb(253, 253, 253); */
+    border-top: 1px solid rgba(48, 48, 48, 0.3);
+    border-bottom: 1px solid rgba(48, 48, 48, 0.3);
+}
+.address {
+    /* background-color: rgb(61, 24, 57); */
+    width: 30.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.address p {
+    padding: 13px;
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+.address h2 {
+    padding: 0 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 13px;
+}
+.apostle-footer{
+    /* background-color: rgb(24, 57, 61); */
+    width: 30.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.apostle-footer p {
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+.apostle-footer h2 {
+    padding:  15px;
+    color: rgb(0, 0, 0);
+}
+.follow-us {
+    /* background-color: rgb(182, 119, 25); */
+    width: 20.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.follow-us p {
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+.follow-us h2 {
+    padding:  15px;
+    color: rgb(0, 0, 0);
+}
+.developer {
+    color: rgb(163, 163, 163);
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        height: 90vh;
+        padding: 10px 10px;
+        background-color: rgb(221, 221, 221);
+    }
+    .footer-inside-box {
+        height: 80vh;
+        flex-direction: column;
+        padding: 10px;
+        border-top: 0;
+        border-bottom: 0;
+    }
+    .address {
+        width: 100%;
+        align-items: center;
+    }
+    .address p {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .address h2 {
+        padding: 10px;
+    }
+    .apostle-footer{
+        width: 100%;
+        align-items: center;
+    }
+    .apostle-footer p {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .apostle-footer h2 {
+        padding: 0 10px;
+    }
+    .follow-us {
+        width: 100%;
+        align-items: center;
+    }
+    .follow-us p {
+        padding: 10px;
+        font-size: 15px;
+    }
+    .follow-us h2 {
+        padding: 0 10px;
+    }
+    .developer {
+        color: rgb(163, 163, 163);
+    }
+}
