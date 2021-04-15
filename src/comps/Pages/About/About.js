@@ -7,7 +7,7 @@ const About = () => {
             <h1 className='about-header'>About Us</h1>
             <div className="apostle-section">
                 <div className="apostle-image">
-                        <h1></h1>
+                        <h1>.</h1>
                     </div>
                     <div className="apostle-text">
                         <h1>EDWARD AND SIBONGILE CHIPFUPA</h1>
