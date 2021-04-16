@@ -238,15 +238,16 @@
         color: rgb(0, 0, 0);
         background-color: rgba(255, 255, 255, 0.9);
         transition: all 1s ease-in;
-        margin-right: 15px;
-        margin-top: 10px;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 100%;
     }
     .nav-links-container.show {
         display: flex;
     }
     .hamburger {
         display: block;
-        margin-bottom: 10px;
+        margin-bottom:10px;
     }
     .new-hamburger {
         display: block;
@@ -258,7 +259,7 @@
         color: rgb(0, 0, 0);
         font-weight: 500;
         font-size: 20px;
-        padding: 35px;
+        padding: 30px;
     }
     .links {
         padding: 7px;
