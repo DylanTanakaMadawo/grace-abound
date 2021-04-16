@@ -17,7 +17,9 @@
 @media screen and (max-width:768px) {
     .feel-free-section {
         width: 100%;
-        padding: 20px 0;
+        padding: 20px ;
+        /* background-color: pink; */
+        margin-bottom: 0;
     }
     .feel-free-section h1 {
         text-align: center;
@@ -25,5 +27,6 @@
     }
     .feel-free-section p {
         padding: 0;
+        line-height: 35px;
     }
 }
