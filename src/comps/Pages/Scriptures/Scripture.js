@@ -7,7 +7,7 @@ const Scripture = () => {
             <div className="daily-scripture">
                 <blockquote>
                     <p className='scripture'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam magnam ratione dolorum tenetur in quaerat, vel placeat eos dolorem tempore.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam magnam ratione dolorum tenetur in quaerat, vel placeat eos dolorem tempore.Loremm.
                      </p>
                 </blockquote>
                 <p className='verse'>
