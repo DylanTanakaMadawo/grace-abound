@@ -1,13 +1,13 @@
 
 .scriptures-section {
     height: 100vh;
-    background-color: pink;
+    /* background-color: pink; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .daily-scripture {
-    background-color: rgb(44, 23, 23);
+    /* background-color: rgb(44, 23, 23); */
     width: 80%;
     height: 80%;
     position: relative;
@@ -162,6 +162,7 @@ blockquote::after {
         right: 50px;
         bottom: 50px;
         /* color: yellow; */
+        margin-top: 20px;
 
     }
 }
