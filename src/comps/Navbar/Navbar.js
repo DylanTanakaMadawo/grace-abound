@@ -85,7 +85,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-70}
                             duration={700}
-                        >OUR FAMILY</Link>
+                        >OUR FAM</Link>
                     </motion.li>
                     <motion.li
                         initial={animateFrom}
