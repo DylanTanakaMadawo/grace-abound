@@ -1,0 +1,36 @@
+.upcoming-events-section {
+    height: 400vh;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+
+}
+
+.heading {
+    font-size: 50px;
+    padding: 20px 0;
+    margin-bottom: 200px;
+}
+.upcoming-events-section .event-div {
+    /* background-color:springgreen; */
+}
+/* .event-div {
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    background-color: red;
+} */
+
+@media screen and (max-width:768px) {
+    .upcoming-events-section {
+        height: 300vh;
+    }
+    .heading {
+        font-size: 40px;
+        padding: 0;
+        margin-bottom: 100px;
+    }
+    
+}

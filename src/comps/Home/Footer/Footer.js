@@ -22,8 +22,8 @@ function Footer() {
           </div>
           <div className="apostle-footer">
             <h2>LEADERS</h2>
-            <p>Apostle E. Chipfupa</p>
-            <p>Pastor S. Chipfupa</p>
+            <p>Pastor J. Doe</p>
+            <p>Pastor J. Doe</p>
           </div>
           <div className="follow-us">
             <h2>Follow Us</h2>

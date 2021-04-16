@@ -10,7 +10,7 @@ const About = () => {
                         <h1>.</h1>
                     </div>
                     <div className="apostle-text">
-                        <h1>EDWARD AND SIBONGILE CHIPFUPA</h1>
+                        <h1>JOHN AND JANE DOE</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit minima minus, hic distinctio nobis, dicta sit, veritatis et inventore ipsum reprehenderit ipsam atque impedit sint quis blanditiis? Consequuntur, officia. Quos sed atque est optio recusandae nobis blanditiis itaque ullam facilis veritatis quasi voluptate incidunt, modi sit, culpa natus unde ex!</p>
                     </div>
                 </div>

@@ -37,12 +37,13 @@ const Navbar = () => {
             <button className={show ? 'hamburger' : 'new-hamburger'} id="hamburger" onClick={handleOpen}>
                 {open ? <i className="fas fa-bars"></i> : <i className="fas fa-times"></i>}
             </button>
-            <div className={open ? 'nav-links-container' : 'nav-links-container show'} id='nav-links-container'>
+            <motion.div
+                className={open ? 'nav-links-container' : 'nav-links-container show'} id='nav-links-container'>
                 <ul className='nav-links'>
                     <motion.li
                         initial={animateFrom}
                         animate={animateTo}
-                        transition={{delay: 0.05}} 
+                        transition={{delay: 0.1}} 
                         className="links">
                         <Link
                             className={show ? 'new-nav-anchor' : 'nav-anchor'}
@@ -55,10 +56,26 @@ const Navbar = () => {
                             duration={700}
                         >HOME</Link>
                     </motion.li>
+                                        <motion.li
+                        initial={animateFrom}
+                        animate={animateTo}
+                        transition={{delay: 0.2}} 
+                        className="links">
+                        <Link
+                            className={show ? 'new-nav-anchor' : 'nav-anchor'}
+                            onClick={handleOpen}
+                            activeClass="active"
+                            to="events"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={700}
+                        >EVENTS</Link>
+                    </motion.li>
                     <motion.li
                         initial={animateFrom}
                         animate={animateTo}
-                        transition={{delay: 0.10}} 
+                        transition={{delay: 0.3}} 
                         className="links">
                         <Link
                             className={show ? 'new-nav-anchor' : 'nav-anchor'}
@@ -74,7 +91,7 @@ const Navbar = () => {
                     <motion.li
                         initial={animateFrom}
                         animate={animateTo}
-                        transition={{delay: 0.15}} 
+                        transition={{delay: 0.4}} 
                         className="links">
                         <Link
                             className={show ? 'new-nav-anchor' : 'nav-anchor'}
@@ -85,28 +102,12 @@ const Navbar = () => {
                             smooth={true}
                             offset={-70}
                             duration={700}
-                        >OUR FAM</Link>
+                        >OUR FAMILY</Link>
                     </motion.li>
                     <motion.li
                         initial={animateFrom}
                         animate={animateTo}
-                        transition={{delay: 0.20}} 
-                        className="links">
-                        <Link
-                            className={show ? 'new-nav-anchor' : 'nav-anchor'}
-                            onClick={handleOpen}
-                            activeClass="active"
-                            to="scriptures"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={700}
-                        >DAILY SCRIPTURES</Link>
-                    </motion.li>
-                    <motion.li
-                        initial={animateFrom}
-                        animate={animateTo}
-                        transition={{delay: 0.30}} 
+                        transition={{delay: 0.6}} 
                         className="links">
                         <Link
                             className={show ? 'new-nav-anchor contact' : 'nav-anchor contact'}
@@ -120,7 +121,7 @@ const Navbar = () => {
                         >CONTACT US</Link>
                     </motion.li>
                 </ul>
-            </div>
+            </motion.div>
     </nav>
     )
 }
