@@ -117,7 +117,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-70}
                             duration={700}
-                        >Contact Us</Link>
+                        >CONTACT US</Link>
                     </motion.li>
                 </ul>
             </div>

@@ -17,4 +17,7 @@
         display: none;
         transition: all 0.01s ease;
     }
+    .btn {
+        border-radius: 0;
+    }
 }
