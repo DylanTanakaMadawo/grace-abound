@@ -13,15 +13,6 @@
     padding: 20px 0;
     margin-bottom: 200px;
 }
-.upcoming-events-section .event-div {
-    /* background-color:springgreen; */
-}
-/* .event-div {
-    width: 60%;
-    height: 100%;
-    margin: 0;
-    background-color: red;
-} */
 
 @media screen and (max-width:768px) {
     .upcoming-events-section {

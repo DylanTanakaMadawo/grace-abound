@@ -122,7 +122,7 @@ blockquote::after {
         margin-bottom: 200px;
         height: 70vh;
         margin-top: 0;
-        background-color: pink;
+        /* background-color: pink; */
     }
     .daily-scripture {
         /* color: powderblue; */
