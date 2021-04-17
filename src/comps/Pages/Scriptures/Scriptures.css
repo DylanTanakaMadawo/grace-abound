@@ -55,9 +55,10 @@ blockquote::after {
     font-family: 'Lora', serif;
     position: absolute;
     right: 350px;
-    bottom: 200px;
+    bottom: 150px;
     font-style: italic;
     font-size: 20px;
+    font-weight: 800;
     
 }
 
