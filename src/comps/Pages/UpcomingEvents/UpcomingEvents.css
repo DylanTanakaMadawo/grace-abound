@@ -1,6 +1,6 @@
 .upcoming-events-section {
     height: 400vh;
-    /* background-color: pink; */
+    background-color: pink;
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
