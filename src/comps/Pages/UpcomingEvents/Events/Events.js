@@ -10,7 +10,7 @@ const Events = ({title, desc, img}) => {
                 whileHover={{ opacity: 1}} 
                 className="event-image"
             >
-                <img src={img} alt="upcoming events" className='img-event'/>
+                {/* <img src={img} alt="upcoming events" className='img-event'/> */}
             </motion.div>
             <p className='event-desc'>{desc}</p>
         </div>
